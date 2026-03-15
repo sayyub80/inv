@@ -172,9 +172,13 @@ body {
   font-family: var(--body); font-weight: 200;
   font-size: clamp(0.52rem, 2.3vw, 0.66rem);
   letter-spacing: 0.6em; text-transform: uppercase;
-  color: rgba(200,169,107,0.5);
+  color: var(--gold-l);
   opacity: 0; animation: fadeSlideUp 1s cubic-bezier(0.16,1,0.3,1) forwards 0.45s;
   margin: 0.3rem 0 0.55rem;
+}
+
+.na{
+  padding-top: 15px;
 }
 
 /* ── Main names container ── */
@@ -260,12 +264,13 @@ body {
   font-size: clamp(0.65rem, 2.8vw, 0.88rem);
   letter-spacing: 0.28em; color: var(--gold);
   white-space: nowrap;
+  
 }
 .h-place-txt {
   font-family: var(--body); font-weight: 200;
   font-size: clamp(0.52rem, 2.2vw, 0.62rem);
   letter-spacing: 0.42em; text-transform: uppercase;
-  color: rgba(200,169,107,0.38); margin-top: 0.35rem;
+ color: var(--gold); margin-top: 0.35rem;
   text-align: center;
 }
 .pd3{
@@ -289,9 +294,10 @@ body {
 }
 .h-cd-lbl {
   font-family: var(--body); font-weight: 200;
+  padding-top: 3px;
   font-size: clamp(0.44rem, 1.8vw, 0.52rem);
   letter-spacing: 0.32em; text-transform: uppercase;
-  color: rgba(200,169,107,0.35); margin-top: 0.2rem;
+  color: var(--gold); margin-top: 0.2rem;
   display: block;
 }
 .h-cd-colon {
@@ -299,6 +305,10 @@ body {
   font-size: clamp(1.4rem, 6vw, 2.2rem);
   color: rgba(200,169,107,0.22);
   padding-bottom: 0.7rem; line-height: 1;
+}
+
+.gl{
+  color: yellow;
 }
 
 /* ── Scroll hint ── */
@@ -632,7 +642,7 @@ footer p { font-family:var(--body); font-weight:200; font-size:.52rem; letter-sp
     <!-- Bismillah -->
     <div class="h-bism">
       <span class="h-bism-main">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</span>
-      <span class="h-bism-sub">نَحْمَدُهُ وَنُصَلِّي عَلَى رَسُولِهِ الْكَرِيمِ</span>
+      <span class="h-bism-sub na">نَحْمَدُهُ وَنُصَلِّي عَلَى رَسُولِهِ الْكَرِيمِ</span>
     </div>
 
     <!-- Moon ornament -->
@@ -763,12 +773,12 @@ footer p { font-family:var(--body); font-weight:200; font-size:.52rem; letter-sp
     <div>
       <div class="m29-badge rev">
         <span class="m29-badge-dot"></span>
-        <span>Main Wedding Day</span>
+        <span class="gl">Main Wedding Day</span>
       </div>
       <h2 class="m29-headline rev d1">Sunday,<br/>29 March</h2>
       <span class="m29-sub-ur rev d1">جشنِ شادی کا اہم دن</span>
       <div class="m29-date-display rev d2">29 · 03 · 2026</div>
-      <p class="m29-weekday rev d2">GIRIDIH, JHARKHAND</p>
+      <p class="m29-weekday rev d2">KUSAIYA, GIRIDIH, JHARKHAND</p>
     </div>
     <div class="m29-tl">
       <div class="m29-ev rev">
@@ -1030,14 +1040,14 @@ footer p { font-family:var(--body); font-weight:200; font-size:.52rem; letter-sp
     </p>
     <div class="divider rev d4"><span class="di">♥</span></div>
     <p class="msg-sig rev d4">
-      Ruksaar &amp; Shahzad &nbsp;·&nbsp; Naziya &amp; Afsar
+      Ruksaar &amp; Shahzad &nbsp; <br> Naziya &amp; Afsar
       <span class="msg-sig-u">رُکسار × شہزاد · نازیہ × افسر</span>
     </p>
   </div>
 </section>
 
 <footer>
-  <div class="ft-title">Ruksaar &amp; Shahzad · Naziya &amp; Afsar</div>
+  <div class="ft-title">Ruksaar &amp; Shahzad · Naziya &amp; Afsaar</div>
   <p>28 – 30 · 03 · 2026 &nbsp;|&nbsp; Kusaiya, Giridih, Jharkhand</p>
   <p style="margin-top:.35rem;font-family:var(--urdu);font-size:.8rem;direction:rtl;letter-spacing:0;color:rgba(200,169,107,0.12)">نَحْمَدُهُ وَنُصَلِّي عَلَى رَسُولِهِ الْكَرِيم</p>
 </footer>
